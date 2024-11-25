@@ -10,6 +10,9 @@ python = "3.12.*"
 fastapi = {extras = ["standard"], version = "^0.115.2"}
 ignr = "^2.2"
 gh = "^0.0.4"
+sqlalchemy = "^2.0.36"
+pydantic-settings = "^2.6.1"
+alembic = "^1.14.0"
 
 
 [tool.poetry.group.dev.dependencies]
